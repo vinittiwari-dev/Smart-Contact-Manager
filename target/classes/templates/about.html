@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8">
+<title>this is home page</title>
+</head>
+<body>
+	<section>
+		<hr _ngcontent-ent-c6="">
+		<div _ngcontent-ent-c6="" class="row container-fluid animated mx-auto">
+			<div _ngcontent-ent-c6="" class="col-lg-6 text-center">
+				<h3 _ngcontent-ent-c6="" class="pt-5">
+					<b _ngcontent-ent-c6="">Feel free to Contact Us</b>
+				</h3>
+				<div _ngcontent-ent-c6="" class="pt-4">
+					<form _ngcontent-ent-c6="" novalidate=""
+						class="ng-pristine ng-invalid ng-touched">
+						<div _ngcontent-ent-c6="" class="form-group pt-2">
+							<input _ngcontent-ent-c6=""
+								class="form-control w-75 mx-auto ng-pristine ng-invalid ng-touched"
+								formcontrolname="name" placeholder="Name" type="text">
+							<!---->
+						</div>
+						<div _ngcontent-ent-c6="" class="form-group">
+							<input _ngcontent-ent-c6=""
+								class="form-control w-75 mx-auto ng-pristine ng-invalid ng-touched"
+								formcontrolname="email" placeholder="Email" type="text">
+							<!---->
+						</div>
+						<div _ngcontent-ent-c6="" class="form-group">
+							<textarea _ngcontent-ent-c6=""
+								class="form-control w-75 mx-auto ng-pristine ng-invalid ng-touched"
+								formcontrolname="message" placeholder="Message"></textarea>
+							<!---->
+						</div>
+						<div _ngcontent-ent-c6="" class="mt-4">
+							<button _ngcontent-ent-c6="" class="btn btn-warning w-25"
+								type="submit">Contact</button>
+							&nbsp;
+						</div>
+					</form>
+				</div>
+			</div>
+			<div _ngcontent-ent-c6="" class="col-lg-6">
+				<img _ngcontent-ent-c6="" class="img-fluid"
+					th:src="@{/img/contacts.png}" src="">
+			</div>
+		</div>
+		</span>
+	</section>
+
+</body>
+</html>
